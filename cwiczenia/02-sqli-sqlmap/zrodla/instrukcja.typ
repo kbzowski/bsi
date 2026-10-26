@@ -627,8 +627,9 @@ wartości jest zawodne i nie zastępuje parametryzacji.
 + Lokalizacja: metoda, endpoint (punkt końcowy API) i parametr, np. `GET /search`, parametr `name`.
 + Opis: na czym polega błąd i jaki skutek może wywołać.
 + Kategoria według OWASP Top 10 oraz numer CWE. OWASP Top 10 to publikowana przez fundację OWASP
-  lista najczęstszych kategorii zagrożeń aplikacji webowych; CWE (Common Weakness Enumeration) to
-  katalog typów słabości oprogramowania. Wstrzyknięcie SQL to `A03:2021 Injection` oraz `CWE-89`.
+  lista najpoważniejszych ryzyk bezpieczeństwa aplikacji webowych; oznaczenie `A05:2025` to
+  kategoria 5 w wydaniu z 2025 roku. CWE (Common Weakness Enumeration) to katalog typów słabości
+  oprogramowania. Wstrzyknięcie SQL to `A05:2025 Injection` oraz `CWE-89`.
 + Waga z jednozdaniowym uzasadnieniem opisującym skutek dla właściciela systemu.
 + Kroki odtworzenia: numerowana lista czynności, która pozwala innej osobie powtórzyć test.
 + Dowód: żądanie i odpowiedź skopiowane jako tekst, skrócone do istotnych wierszy, lub polecenie
